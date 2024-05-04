@@ -1,0 +1,43 @@
+[global_config]
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_type = transparent
+    font = MonoLisa 13
+    show_titlebar = False
+    palette = "#161819:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    login_shell = True
+    use_system_font = False
+  [[Gruvbox Dark]]
+    allow_bold = False
+    background_color = "#282828"
+    cursor_bg_color = "#bbbbbb"
+    font = JetBrainsMonoNL Nerd Font 12
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    login_shell = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 110:65
+      maximised = False
+      fullscreen = False
+      size = 734, 451
+      title = darkwingdck@pc: ~
+      last_active_term = 28a1d579-369c-47f1-b47c-ad2c1d2042da
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = Gruvbox Dark
+      uuid = 28a1d579-369c-47f1-b47c-ad2c1d2042da
+[plugins]
